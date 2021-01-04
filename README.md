@@ -63,7 +63,7 @@
 7.	Configure some items listed below:
     - RP-unit's MachineID
     - RP-unit's IP-address 
-    
+    <br>
    After answering, cloning of RP-units will be finished. It becomes possible to access and operate the RP-units though the SSH remote login.
 
 ### Video-recording
