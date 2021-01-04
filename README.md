@@ -39,16 +39,16 @@
    ```
    If the message “supported=1 detected=1” appears, the camera module is successfully recognized.
 
-1.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
+2.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
-1.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete.
+2.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete.
    ```
    sudo chmod 777 /home/pi/Desktop/Setup.sh
    ```
    
-1.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
+3.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 
-1.	Answer the questions listed below:
+3.	Answer the questions listed below:
     - a
     - a
     - a
