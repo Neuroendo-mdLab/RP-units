@@ -32,7 +32,7 @@
 
 7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
-8.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete by using the command line:<br> `sudo chmod 777 /home/pi/Desktop/Setup.sh` <br>.
+8.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete by using the command line:<br> `sudo chmod 777 /home/pi/Desktop/Setup.sh` <br>
    
 9.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 
