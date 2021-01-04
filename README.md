@@ -29,15 +29,15 @@
    ```python
    sudo raspi-config
    ```
-Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
+   Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
    ```python
    sudo reboot
    ```
-After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line:
+   After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line:
    ```python
    vcgencmd get_camera
    ```
-If the message “supported=1 detected=1” appears, the camera module is successfully recognized.
+   If the message “supported=1 detected=1” appears, the camera module is successfully recognized.
 
 7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
@@ -61,20 +61,28 @@ If the message “supported=1 detected=1” appears, the camera module is succes
 
 ### Cloning of RP-units
 1.	Save the entire data of initial RP-units as a disk image (.iso).
+
 2.	Copy the disk image to a new microSD card.
+
 3.	Insert the microSD and connect the Raspberry Pi Camera Module V2 to the Raspberry Pi.
+
 4.	Connect the display, keyboard and mouse to the Raspberry Pi. 
+
 5.	Boot the Raspberry Pi.
+
 6.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
+
 7.	Answer the questions listed below:
     - a
     - a
-  After answering, cloning of RP-units will be finished. It becomes possible to access and operate the 
-  RP-units though the SSH remote login.
+    
+   After answering, cloning of RP-units will be finished. It becomes possible to access and operate the RP-units though the SSH remote login.
 
 ### Video-recording
 1.	Access to the multiple RP-units through SSH remote login. By doing this, it becomes possible to simultaneously execute subsequent operations in multiple RP-units.
+
 2.	Configure the duration of video-recording by editing the line xx of *Camera.py*. Recording duration is defined in seconds. It is defined as 300 seconds by default setting.
+
 3.	Run *Record.sh*. Video-recording, file-naming, encoding and transferring video file will be automatically performed. By default setting, video files are temporary saved to the directory of each RP-unit (/home/pi/Videos), and transfer to the NAS’s directory. NAS’s directory that are set when running Setup.sh is mounted to the directory /mnt/NAS (Here is the mount-point). Video files that recorded by each RP-unit and named “~converted.mp4” will be sorted in the NAS.
 
 
