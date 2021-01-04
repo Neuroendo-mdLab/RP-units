@@ -22,5 +22,4 @@
 6.	Make the Camera Module available. To open the configuration tool, run the following from the command line:
    ```python
    sudo raspi-config
-   ```
-   Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
+   ```Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
