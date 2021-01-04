@@ -10,6 +10,7 @@
    -	Raspberry Pi Camera Module V2
    -	Wireless rooter
    -	NAS (if you use multiple RP-units, we recommend you prepare it.)
+ 
  Connection diagram of these hardware is represented in the paper.
  
 ## Usage
