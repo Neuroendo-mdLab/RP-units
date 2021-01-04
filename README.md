@@ -48,13 +48,14 @@
    
 9.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 
-10.	Answer the questions listed below:
-    - a
-    - a
-    - a
-    - a
-    - a
-    - a
+10.	Configure some items listed below:
+    - Router's IP-address
+    - NAS's username
+    - NAS's password
+    - NAS's IP-address
+    - NAS's directory that you want to store the data
+    - RP-unit's MachineID
+    - RP-unit's IP-address 
 
   After answering, setup of RP-units will be finished. It becomes possible to access and operate the 
   RP-units though the SSH remote login.
@@ -72,9 +73,9 @@
 
 6.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 
-7.	Answer the questions listed below:
-    - a
-    - a
+7.	Configure some items listed below:
+    - RP-unit's MachineID
+    - RP-unit's IP-address 
     
    After answering, cloning of RP-units will be finished. It becomes possible to access and operate the RP-units though the SSH remote login.
 
