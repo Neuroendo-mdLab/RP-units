@@ -23,3 +23,4 @@
 ```python
 sudo raspi-config
 ```
+Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
