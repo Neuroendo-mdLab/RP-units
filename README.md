@@ -29,7 +29,8 @@
    Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
    ```python
    sudo reboot
-   ``` <br>
+   ```
+   <br>
    After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line:
    ```python
    vcgencmd get_camera
