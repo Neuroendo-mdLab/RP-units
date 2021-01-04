@@ -17,15 +17,15 @@
 ### Initial setting of the RP-unit
 1.	Built the WLAN and connect the NAS. In the present study, we connected the NAS to WLAN through the Ethernet cable.
 
-1.	Install the Raspberry Pi OS (called ‘Raspbian’ before) to the microSD card. We had confirmed that the present system works on Raspbian ver.3.1.1 or later. For this step, it is easy to use ‘Raspberry Pi Imager (https://www.raspberrypi.org/software/)’, which is an application for installation of Raspberry Pi OS.
+2.	Install the Raspberry Pi OS (called ‘Raspbian’ before) to the microSD card. We had confirmed that the present system works on Raspbian ver.3.1.1 or later. For this step, it is easy to use ‘Raspberry Pi Imager (https://www.raspberrypi.org/software/)’, which is an application for installation of Raspberry Pi OS.
 
-1.	Insert the microSD and connect the Raspberry Pi Camera Module V2 to the Raspberry Pi.
+3.	Insert the microSD and connect the Raspberry Pi Camera Module V2 to the Raspberry Pi.
 
-1.	Connect the display, keyboard and mouse to the Raspberry Pi. 
+4.	Connect the display, keyboard and mouse to the Raspberry Pi. 
 
-1.	Boot the Raspberry Pi and make initial setting (When firstly booting Raspberry Pi, the initial setting will be automatically started). Connect the Raspberry Pi to the WLAN in the step for network configuration.
+5.	Boot the Raspberry Pi and make initial setting (When firstly booting Raspberry Pi, the initial setting will be automatically started). Connect the Raspberry Pi to the WLAN in the step for network configuration.
 
-1.	Make the Camera Module available. To open the configuration tool, run the following from the command line:
+6.	Make the Camera Module available. To open the configuration tool, run the following from the command line:
    ```python
    sudo raspi-config
    ```
@@ -39,16 +39,16 @@
    ```
    If the message “supported=1 detected=1” appears, the camera module is successfully recognized.
 
-2.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
+7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
-2.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete.
+8.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete.
    ```
    sudo chmod 777 /home/pi/Desktop/Setup.sh
    ```
    
-3.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
+9.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 
-3.	Answer the questions listed below:
+10.	Answer the questions listed below:
     - a
     - a
     - a
