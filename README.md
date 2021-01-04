@@ -19,7 +19,7 @@
 
 2.	Install the Raspberry Pi OS (called ‘Raspbian’ before) to the microSD card. We had confirmed that the present system works on Raspbian ver.3.1.1 or later. For this step, it is easy to use ‘Raspberry Pi Imager (https://www.raspberrypi.org/software/)’, which is an application for installation of Raspberry Pi OS.
 
-3.	Insert the microSD and connect the Raspberry Pi Camera Module V2 to the Raspberry Pi.
+3.	Insert the microSD card and connect the Raspberry Pi Camera Module V2 to the Raspberry Pi.
 
 4.	Connect the display, keyboard and mouse to the Raspberry Pi. 
 
