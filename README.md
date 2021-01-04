@@ -23,15 +23,20 @@
    ```python
    sudo raspi-config
    ```
-   Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
 Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.
-$ sudo reboot
+   ```python
+   sudo reboot
+   ```
 After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line:
-$ vcgencmd get_camera
+   ```python
+   vcgencmd get_camera
+   ```
 If the message “supported=1 detected=1” appears, the camera module is successfully recognized.
 7.	Place the files Setup.sh/Record.sh/Camera.py/MachineID to the desktop of Raspberry Pi (/home/pi/Desktop).
 8.	Modify the file permission of Setup.sh to make users read, write, execute and delete.
-$ sudo chmod 777 /home/pi/Desktop/Setup.sh
+   ```python
+   sudo chmod 777 /home/pi/Desktop/Setup.sh
+   ```
 9.	Run the Setup.sh. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
 10.	Answer the questions listed below:
     - a
