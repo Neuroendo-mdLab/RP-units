@@ -20,5 +20,6 @@
 4.	Connect the display, keyboard and mouse to the Raspberry Pi. 
 5.	Boot the Raspberry Pi and make initial setting (When firstly booting Raspberry Pi, the initial setting will be automatically started). Connect the Raspberry Pi to the WLAN in the step for network configuration.
 6.	Make the Camera Module available. To open the configuration tool, run the following from the command line:
-```sudo raspi-config
+```python
+sudo raspi-config
 ```
