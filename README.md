@@ -43,7 +43,8 @@
     - NAS's IP-address
     - NAS's directory that you want to store the data
     - RP-unit's MachineID
-    - RP-unit's IP-address <br>
+    - RP-unit's IP-address
+    <br>
   After answering, setup of RP-units will be finished. It becomes possible to access and operate the RP-units though the SSH remote login.
 
 ### Cloning of RP-units
