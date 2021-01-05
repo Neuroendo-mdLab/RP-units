@@ -1,7 +1,7 @@
 # RP-units
 
 ## Description
- RP-unit is an automated animal behavior recording system using Raspberry Pi, which enables you remotely perform video-recording of animal behavior. It also frees you from laborious procedures such as file-naming, encoding and transferring the files to a storage. Thus, by using RP-units, behavioral recordings will be performed more efficiently and accurately, without unintentional human errors caused by experimental operations. 
+ RP-unit is an automated animal behavior recording system using multiple Raspberry Pis, which enables you automatically perform video-recording of animal behavior. It also frees you from laborious procedures such as file-naming, encoding and transferring the files to a storage. Thus, by using RP-units, behavioral recordings will be performed more efficiently and accurately, without unintentional human errors caused by experimental operations. All Raspberry pis and a computer for operation are supposed to be connected in a closed network via Wi-Fi rooter.
  
 ## Requirement
  This system required the hardware listed below:
@@ -9,9 +9,9 @@
    -	microSD card
    -	Raspberry Pi Camera Module V2
    -	Wireless rooter
-   -	NAS (If you use multiple RP-units, we recommend you prepare it.)
+   -	NAS (If you use multiple RP-units, we recommend you to prepare it.)
  
- Connection diagram of these hardware is represented in the paper.
+ Connection diagram of these hardware is represented in a paper that is is under consideration in a journal.
  
 ## Usage
 ### Initial setting of the RP-unit
