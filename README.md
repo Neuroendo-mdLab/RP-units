@@ -69,7 +69,7 @@
 ### Video-recording
 1.	Access to the multiple RP-units through SSH remote login. By doing this, it becomes possible to simultaneously execute subsequent operations in multiple RP-units.
 
-2.	Configure the duration of video-recording by editing the line xx of *Camera.py*. Recording duration is defined in seconds. It is defined as 300 seconds by default setting.
+2.	Configure the duration of video-recording by editing the line 10 of *Camera.py*. Recording duration is defined in seconds. It is defined as 300 seconds by default setting.
 
 3.	Run *Record.sh*. Video-recording, file-naming, encoding and transferring video file will be automatically performed. By default setting, video files are temporary saved to the directory of each RP-unit (/home/pi/Videos), and transfer to the NAS’s directory. NAS’s directory that are set when running Setup.sh is mounted to the directory /mnt/NAS (Here is the mount-point). Video files that recorded by each RP-unit and named “~converted.mp4” will be sorted in the NAS.
 
