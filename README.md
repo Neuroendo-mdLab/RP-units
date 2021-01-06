@@ -28,7 +28,7 @@
 6.	Make the Camera Module available. To open the configuration tool, run the following from the command line: `sudo raspi-config`<br>
    Select ‘enabled’ in the menu of ‘Interface Options > Camera’ and once reboot the Raspberry Pi.<br>
    After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line: `vcgencmd get_camera` <br>
-   If the message `supported=1 detected=1` appears, the camera module is successfully recognized.
+   If the message `supported=1 detected=1` , the camera module is successfully recognized.
 
 7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
