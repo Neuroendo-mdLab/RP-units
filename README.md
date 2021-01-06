@@ -30,7 +30,7 @@
    After rebooting, it recommends you checking whether the camera module is successfully recognized to Raspberry Pi by using the command line: `vcgencmd get_camera` <br>
    If the message `supported=1 detected=1` , the camera module is successfully recognized.
 
-7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py*/*MachineID* to the desktop of Raspberry Pi (/home/pi/Desktop).
+7.	Place the files *Setup.sh*/*Record.sh*/*Camera.py* to the desktop of Raspberry Pi (/home/pi/Desktop).
 
 8.	Modify the file permission of *Setup.sh* to make users read, write, execute and delete by using the command line:<br> `sudo chmod 777 /home/pi/Desktop/Setup.sh` <br>
    
