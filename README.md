@@ -58,7 +58,7 @@
 
 5.	Boot the Raspberry Pi.
 
-6.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “y”.
+6.	Run the *Setup.sh*. A question of whether it is the first time to setup the RP-unit appears in terminal window, so fill in “n”.
 
 7.	Configure some items listed below:
     - RP-unit's MachineID
