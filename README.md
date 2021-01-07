@@ -75,7 +75,7 @@
 
 
 ## Note
- We also uploaded two python scripts *Feed.py* and *Voltage.py*, which is editted version of *Camera.py* and run for operating the external devices (LED lamp and auto-feeding device) or switching on/off of the power of the circuit using 9V alkaline battery, respectively.
+ We also uploaded two python scripts *Feed.py* and *Voltage.py*, which are editted version of *Camera.py* and run for operating the external devices (LED lamp and auto-feeding device) or switching on/off of the power of the circuit using 9V alkaline battery, respectively.
 
 ## Author
  - Soma Tomihara (The University of Tokyo)
